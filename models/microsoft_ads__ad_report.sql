@@ -60,6 +60,7 @@ joined as (
         ads.ad_name,
         report.ad_id,
         ads.type as ad_type,
+        ads.status as status,
         report.device_os,
         report.device_type,
         report.network,
