@@ -83,7 +83,7 @@ joined as (
     left join accounts
         on report.account_id = accounts.account_id
         and report.source_relation = accounts.source_relation
-    {{ dbt_utils.group_by(15) }}
+    {{ dbt_utils.group_by(16) }}
 
 )
 
